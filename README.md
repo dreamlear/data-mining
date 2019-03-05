@@ -27,5 +27,25 @@ Descriptions for these algorithms.
         
 #### Implements
 
+
 ## Project
 A project for data mining.
+
+### Data
+There are two data sets, one is data of Mobike (China based data)from Mobike Big Data Challenge 2017, the other is data of bike share (US based data) .
+
+### To Do
+The job is to predict the field to_station_id(predict destinations of bike share data).
+
+### Task
+#### Task 1 - Data Preprocessing and Statistics
+
+#### Task 2 - Data Clustering
+
+#### Task 3 - Simple Data Visualization
+
+#### Task 4 - Frequent Pattern Mining 
+
+#### Task 5 - Prediction
+
+### Result
