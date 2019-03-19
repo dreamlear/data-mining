@@ -32,12 +32,20 @@ Descriptions for these algorithms.
 A project for data mining.
 
 ### Data
-There are two data sets, one is data of Mobike from Mobike Big Data Challenge 2017, the other is data of Divvy bike data .
+There are two data sets.
+
+One is data of Mobike from Mobike Big Data Challenge 2017. 
+[Mobike Data](https://biendata.com/competition/mobike/)
+
+The other is data of Divvy bike data.
+[Divvy Data](https://www.divvybikes.com/system-data)
 
 ### To Do
 The job is to predict the field to_station_id(predict destinations of bike share data).
 
-### Task
+### Tasks
+All the codes are in the *project/project.ipynb* file.
+
 #### Task 1 - Data Preprocessing and Statistics
 
 #### Task 2 - Data Clustering
