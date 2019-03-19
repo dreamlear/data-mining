@@ -32,7 +32,7 @@ Descriptions for these algorithms.
 A project for data mining.
 
 ### Data
-There are two data sets, one is data of Mobike (China based data)from Mobike Big Data Challenge 2017, the other is data of bike share (US based data) .
+There are two data sets, one is data of Mobike from Mobike Big Data Challenge 2017, the other is data of Divvy bike data .
 
 ### To Do
 The job is to predict the field to_station_id(predict destinations of bike share data).
