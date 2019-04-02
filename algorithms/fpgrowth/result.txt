@@ -1,0 +1,14 @@
+Threshold is 3.
+
+('shoes',) : 3
+('shoes', 'socks') : 3
+('gloves',) : 3
+('gloves', 'socks') : 3
+('eggs',) : 3
+('eggs', 'milk') : 3
+('bread', 'eggs') : 3
+('bread', 'eggs', 'milk') : 3
+('bread',) : 3
+('bread', 'milk') : 3
+('socks',) : 4
+('milk',) : 4

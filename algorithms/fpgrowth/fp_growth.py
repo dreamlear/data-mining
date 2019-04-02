@@ -8,7 +8,7 @@ data_set = [['bread', 'milk', 'vegetable', 'fruit', 'eggs'],
                ['socks', 'shoes', 'sweater', 'cap', 'milk', 'vegetable', 'gloves'],
                ['eggs', 'bread', 'milk', 'fish', 'crab', 'shrimp', 'rice']]
 
-# the structure of FP tree
+# the structure of FP Node
 class FPNode:
     def __init__(self, id, count, parent):
         self.id = id
@@ -18,6 +18,7 @@ class FPNode:
         self.children = []
 
 
+# the structure of FP Tree
 class FPTree:
 
     def __init__(self, data_set, minsup, root_id, root_frequency):
@@ -98,7 +99,6 @@ class FPTree:
         item_frequency = {k: v for k, v in item_frequency.items() if v >= minsup}
 
         if (len(item_frequency) == 0):
-            print('The minsup may be too high')
             return None, None
 
         # Scan the data again, filter and sort the items
@@ -215,4 +215,7 @@ def get_patterns(data_set, minsup):
 
 
 if __name__=='__main__':
-    print(get_patterns(data_set, 3))
+    patterns = get_patterns(data_set, 3)
+    print('Threshold is 3.\n')
+    for key, value in patterns.items():
+        print(key, ':', value)
